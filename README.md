@@ -16,12 +16,13 @@ Suivi de la performance : Utilisation de Azure Application Insights pour le suiv
 ## Structure du projet
 
 |── JulienRapacki/IA_P07<br>
-|      └── app.py                # API Flask pour servir les prédictions<br> 
-|      └── steamlit-app.py       # Interface utilisateur délivrée par Streamlit<br> 
-|      └── model_lstm_glove.h5   # modèle LSTM entraîné<br> 
-|      └── tokenizer_lstm.pickle # tockenizer entraîné<br> 
+|      └── app.py                _# API Flask pour servir les prédictions_<br> 
+|      └── model_lstm_glove.h5   _# modèle LSTM entraîné_<br> 
+|      └── tokenizer_lstm.pickle _# tockenizer entraîné_<br> 
+|── Streamlit<br>  
+|      └── steamlit-app.py       _# Interface utilisateur délivrée par Streamlit_<br> 
 |── Test<br>  
-|      └── P07_app_test.py       # Script pour tests unitaires<br> 
+|      └── P07_app_test.py       _# Script pour tests unitaires_<br> 
 |── Model notebook<br>
-|      └── Rapacki_Julien_2_scripts_notebook_modélisation_082024.ipynb                # API Flask pour servir les prédictions<br> 
-|── README.md                   # Documentation du projet<br> 
+|      └── Rapacki_Julien_2_scripts_notebook_modélisation_082024.ipynb    _# Notebook conception du modèle_<br> 
+|── README.md                    _# Documentation du projet_<br> 
